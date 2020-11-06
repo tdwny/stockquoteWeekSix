@@ -15,6 +15,8 @@ import java.util.List;
  */
 public class BasicStockQuoteApplication {
 
+    //FinalCommit
+
     private StockService stockService;
 
     // an example of how to use enum - not part of assignment 3 but useful for assignment 4
