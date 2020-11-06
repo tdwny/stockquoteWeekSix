@@ -13,12 +13,12 @@ import org.junit.Before;
  */
 public class DatabaseServiceTest {
 
-    @Before
-    public void setUp() throws DatabaseInitializationException {
-        DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
-    }
-    @After
-    public void tearDown() throws DatabaseInitializationException {
-        DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
-    }
+//    @Before
+//    public void setUp() throws DatabaseInitializationException {
+//        DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
+//    }
+//    @After
+//    public void tearDown() throws DatabaseInitializationException {
+//        DatabaseUtils.initializeDatabase(DatabaseUtils.initializationFile);
+//    }
 }

@@ -10,11 +10,11 @@ import static org.junit.Assert.assertTrue;
  */
 public class QuoteDAOTest extends AbstractBaseDAOTest {
 
-    @Test
-    public void testRead() {
-        QuoteDAO quoteDAO = DatabaseUtils.findUniqueResultBy("id", 1, QuoteDAO.class, true);
-        assertTrue("first quoteDAO found", quoteDAO.getId() == 1);
-    }
+//    @Test
+//    public void testRead() {
+//        QuoteDAO quoteDAO = DatabaseUtils.findUniqueResultBy("id", 1, QuoteDAO.class, true);
+//        assertTrue("first quoteDAO found", quoteDAO.getId() == 1);
+//    }
 
 
 }
