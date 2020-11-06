@@ -9,15 +9,15 @@ import static org.junit.Assert.assertNotNull;
  */
 public class ServiceFactoryTest {
 
-    @Test
-    public void testGetStockServiceInstance() {
-        StockService stockService = ServiceFactory.getStockService();
-        assertNotNull(stockService);
-    }
-
-    @Test
-    public void testGetUserServiceInstance() {
-        UserService userService = ServiceFactory.getUserService();
-        assertNotNull(userService);
-    }
+//    @Test
+//    public void testGetStockServiceInstance() {
+//        StockService stockService = ServiceFactory.getStockService();
+//        assertNotNull(stockService);
+//    }
+//
+//    @Test
+//    public void testGetUserServiceInstance() {
+//        UserService userService = ServiceFactory.getUserService();
+//        assertNotNull(userService);
+//    }
 }
